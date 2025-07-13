@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+
+# Python virtual environment packages
+*.egg-info/
+*.egg
+
+# Hidden system files
+*.swp
+*.swo
+
+# Compiled C files
+*.so
+
+# Data / models (if you want to keep them local)
+data/
+models/
+
+# Output or intermediate files (if generated programmatically)
+output/
+temp/
+*.tmp
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints/

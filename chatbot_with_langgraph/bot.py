@@ -7,8 +7,7 @@ from langchain_core.messages import HumanMessage
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import ToolNode
 from langchain_groq import ChatGroq
-from langchain_community.tools.tavily_search import TavilySearchResults
-
+from langchain_tavily import TavilySearchResults
 
 
 class chatbot:
@@ -53,3 +52,4 @@ if __name__=="__main__":
     print(response['messages'][-1].content)
     
     
+
